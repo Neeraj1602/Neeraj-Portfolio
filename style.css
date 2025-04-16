@@ -1,0 +1,129 @@
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    scroll-behavior: smooth;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #00b894;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 60vh;
+    background: linear-gradient(135deg, #00b894, #55efc4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 60px 30px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2d3436;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    padding: 20px;
+    border-left: 5px solid #00b894;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+    color: #0984e3;
+  }
+  
+  /* Contact Section */
+  #contact a {
+    color: #0984e3;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .hero h1 {
+      font-size: 30px;
+    }
+  }
